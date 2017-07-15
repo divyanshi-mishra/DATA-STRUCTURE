@@ -5,7 +5,7 @@ int main(){
 queue<int> MyQ;
 for(int i=0;i<4;i++)
 {
-cout<<"enqueuing:"<<i<<endl;
+cout<<"enqueuing :"<<i<<endl;
 MyQ.push(i);
 }
 cout<<"THE SIZE OF THE QUEUE IS:"<<MyQ.size()<<endl;
